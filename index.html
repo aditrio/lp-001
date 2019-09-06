@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 <!-- Font link -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -20,38 +23,32 @@
     
 <!-- navbar -->
 
-    <nav class="navbar sticky-top navbar-expand-lg ">
-
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/Logo 1.png" width="100" height="30" alt=""> 
-        </a>
-    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <nav class="navbar fixed-top ">
+      <span class="navbar-toggle  " id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+          </span>
+      <a href="#" class="logo">
+        <img class="logo" src="assets/img/Logo 1.png" alt=""  >
+      </a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="#" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Products</a>
+        </li>
+         <li>
+          <a href="#" class="nav-links">Portfolio</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-links">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Contact</a>
+        </li>
         
-        
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link cf" href="#">Home </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link cf" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link cf"href="#">Galerry</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link cf"href="#">Projects</a>
-            </li>
-            </ul>
-        </div>
-       </div>
-    </nav>
-
+      </ul>
+  </nav>
 
 <!-- end navbar -->
 
@@ -65,100 +62,250 @@
 <!-- end jumbo -->
 <br>
 <br>
-<div class="container">
-    <h1 class="judul">What we do?</h1>
-    <p >Layanan jasa dalam bidang IT , membantu anda dalam membuat website dan game dengan profesional bekerja sama dengan Red Optimation Corporation</p>
-    <br>
-    <br>
-    <br>
+<div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"data-aos-duration="700">
+  <div class="container">
+      <h1 class="judul headline ">What we do?</h1>
+      <p >Layanan jasa dalam bidang IT , membantu anda dalam membuat website dan game dengan profesional bekerja sama dengan Red Optimation Corporation</p>
+      <br>
+      <br>
+      <br>
+  </div>
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-lg">
-            <img class="gambar" src="assets/img/Logo 1.png" alt="">
+      <div class="col-lg-6">
+        <div data-aos="fade-up-right"data-aos-duration="1000">
+          <div class="card mb-3 bg-dark border-primary">
+            <img src="assets/img/Logo 1.png" class="card-img-top" alt="..." style="margin-left: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Nolf Developer</h5>
+              <p class="card-text" >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+          
         </div>
-        <div class="col-lg-5 ">
-            <h4>Nolf developer</h4>
-            <p>Start Up yang terjun dalam pembuatan Game dan Website , Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illum, sunt repellat reprehenderit recusandae, rerum ex dolor ipsum eaque consequatur, molestias assumenda quisquam commodi ab laborum temporibus asperiores perspiciatis impedit.</p>
+      </div>
+
+      <div class="col-lg-6">
+        <div data-aos="fade-up-left"data-aos-duration="1000">
+          <div class="card mb-3 bg-dark border-primary ">
+            <img src="assets/img/aaaa.png" class="card-img-top" alt="..." style="height: 8.3rem;" >
+            <div class="card-body">
+              <h5 class="card-title">Red Optimation Corp</h5>
+              <p class="card-text" >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+          
         </div>
+      </div>
     </div>
-</div>
+  </div>
 <br>
 <br>
-<div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <h4>Red Optimation Corp</h4>
-                <p>Start Up yang terjun dalam jasa optimasi instagram dan website , Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illum, sunt repellat reprehenderit recusandae, rerum ex dolor ipsum eaque consequatur, molestias assumenda quisquam commodi ab laborum temporibus asperiores perspiciatis impedit.</p>
+
+
+<br>
+<br>
+<br>
+<!-- product -->
+
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"data-aos-duration="700">
+    <h1 class="judul">Products</h1>
+  </div>
+  
+
+  <div class="parallax">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card2">
+            <div class="imgBx">
+                <img src="assets/img/game.png" alt="images">
             </div>
-            <div class="col-lg ">
-                <img class="gambar" src="assets/img/aaaa.png" alt="">
+            <div class="details">
+                <h2>Game 2D<br><span>Godot & Unity</span></h2>
             </div>
+          </div>
         </div>
+      </div>
+      </div>
+    </div>
+    
+   <!--  <br>
+    <br>
+    <div class="container">
+      <p style="text-align: center;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore porro fugit, eveniet nemo illum dignissimos vitae, quae ipsum provident praesentium quidem, voluptas nihil. Quos fuga et, tempore quisquam nam quod.</p>
+    </div>
+    <br>
+    <br> -->
+    
+  
+  <div class="parallax">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="card2">
+          <div class="imgBx">
+              <img src="assets/img/webapp.png" alt="images">
+          </div>
+          <div class="details">
+              <h2>Web App<br><span>Laravel & Django</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <br>
+  <br>
+  <div class="container ml-auto">
+      <blockquote>  
+         <p><strong>If this is coffee,</strong> please bring me some tea; <strong>but if this is tea,</strong> please bring me some coffee.</p>
+          <cite>Abraham Lincoln</cite>
+      </blockquote>
+  </div>
+  <br>
+  <br>
+ 
+  
+  <div class="parallax2">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="card2">
+          <div class="imgBx">
+              <img src="assets/img/webprofile.png" alt="images">
+          </div>
+          <div class="details">
+              <h2>Web Profile<br><span>HTML , CSS , & Javascript</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  
+  <div class="parallax2">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="card2">
+          <div class="imgBx">
+              <img src="assets/img/lp.png" alt="images">
+          </div>
+          <div class="details">
+              <h2>Landing Page<br><span>HTML , CSS , & Javascript</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <br>
 <br>
+<br>
+<br>
+<!-- end product -->
 
+<!-- portfolio -->
 <div class="container">
-  <h1 class="judul">Portofolio</h1><br>
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"data-aos-duration="700">
+    <h1 class="judul">Portofolio</h1><br>
+  </div>
    <div class="row">
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
-              <img src="assets/img/port1.png" class="card-img-top" alt="...">
-                  <div class="card-body" style="height: 6.5rem;">
-                    <p class="card-text" style="color: black; text-align: center; ">Lembaga Zakat Amanah</p>
-                    <a href="zakat.html"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
-                  </div>
-            </div>
+          <div data-aos="flip-left"data-aos-anchor-placement="top-center"data-aos-duration="1000">
+              <div class="card" style="width: 22rem; padding-bottom: 10px; ">
+                <img src="assets/img/port1.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="height: 6.5rem;">
+                      <p class="card-text" style="color: black; text-align: center; ">Lembaga Zakat Amanah</p>
+                      <a href="zakat.html"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
+                    </div>
+              </div>
+          </div>
         </div>
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+          <div data-aos="flip-up"data-aos-anchor-placement="top-center"data-aos-duration="1000">
+            <div class="card" style="width: 22rem; padding-bottom: 10px; ">
               <img src="assets/img/port2.png" class="card-img-top" alt="...">
                   <div class="card-body" style="height: 6.5rem;">
                     <p class="card-text" style="color: black; text-align: center; ">Web Profile</p>
                     <a href="https://www.aditriono.com"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
                   </div>
             </div>
+          </div>
         </div>
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+          <div data-aos="flip-right"data-aos-anchor-placement="top-center"data-aos-duration="1000">
+            <div class="card" style="width: 22rem; padding-bottom: 10px; ">
               <img src="assets/img/port3.png" class="card-img-top" alt="...">
                   <div class="card-body" style="height: 6.5rem;">
                     <p class="card-text" style="color: black; text-align: center; ">Web Profile</p>
                     <a href="http://www.satrialaksana.online"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
                   </div>
             </div>
+          </div>
         </div>
    </div>
    <br>
    <div class="row">
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+          <div data-aos="flip-right"data-aos-anchor-placement="top-bottom"data-aos-duration="1000">
+
+            <div class="card" style="width: 22rem; padding-bottom: 10px; ">
               <img src="assets/img/port4.png" class="card-img-top" alt="...">
                   <div class="card-body" style="height: 6.5rem;">
                     <p class="card-text" style="color: black; text-align: center; ">Web Profile</p>
                     <a href="http://www.agus-sulaeman.site"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
                   </div>
             </div>
+          </div>
         </div>
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
+          <div data-aos="flip-down"data-aos-anchor-placement="top-bottom"data-aos-duration="1000">
+
+            <div class="card" style="width: 22rem; padding-bottom: 10px; ">
               <img src="assets/img/port5.png" class="card-img-top" alt="...">
                   <div class="card-body" style="height: 6.5rem;">
                     <p class="card-text" style="color: black; text-align: center; ">Web Profile</p>
                     <a href="http://www.dnfxv.site"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
                   </div>
             </div>
+          </div>
         </div>
         <div class="col-lg-4">
-            <div class="card" style="width: 22rem;">
-              <img src="assets/img/port3.png" class="card-img-top" alt="...">
+          <div data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-duration="1000">
+
+            <div class="card" style="width: 22rem; padding-bottom: 10px; ">
+              <img src="assets/img/port6.png" class="card-img-top" alt="...">
                   <div class="card-body" style="height: 6.5rem;">
                     <p class="card-text" style="color: black; text-align: center; ">Web Profile</p>
-                    <a href="http://www.satrialaksana.online"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
+                    <a href="http://www.arbow1.com"class="btn btn-dark" style="margin-left: 6rem;">View Page</a>
                   </div>
             </div>
+          </div>
         </div>
    </div>
 </div>
@@ -166,9 +313,23 @@
 <br>
 <br>
 <br>
+<!-- end portfolio -->
+<!-- about us -->
+<div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"data-aos-duration="700">
+    <h1 class="judul">About Us</h1><br><br><br>
+  </div>
 
+
+
+<!-- end about us -->
 </body>
 <!-- js links -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init()
+</script>
 </html>
